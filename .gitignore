@@ -1,0 +1,17 @@
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# Local credentials and private key material
+*.pem
+*.key
+credentials.json
+service-account*.json
+secrets.json
+config.local.py
+/key.md
+
+# Python-generated files
+__pycache__/
+*.py[cod]
